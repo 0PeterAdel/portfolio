@@ -1,0 +1,15 @@
+export const contactsData = {
+  email: "0peteradel@proton.me",
+  phone: "+201140906414",
+  address: "Egypt , 6-Octoper",
+  github: "https://github.com/0PeterAdel",
+  linkedIn: "https://linkedin.com/in/1peteradel",
+  cybertalants: "https://cybertalents.com/members/H_0/profile",
+  sololearn: "https://www.sololearn.com/en/profile/21778301",
+  hackerRank: "https://www.hackerrank.com/profile/1peteradel",
+  codeforce: "https://codeforces.com/profile/Peter_Adel",
+  // facebook: 'https://www.facebook.com//',
+  // twitter: 'https://twitter.com/said7388',
+  // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  devUsername: "said7388",
+};
