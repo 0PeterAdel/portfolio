@@ -2,7 +2,7 @@ export const personalData = {
   name: "Peter Adel",
   profile: '/profile.png',
   designation: "Data Analytics Specialist",
-  description: "My name is PETER ADEL. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is PETER ADEL, and I am a passionate and dedicated computer science student with a strong focus on Python programming and Data Analysis. I am a quick learner with a self-driven attitude, constantly exploring new technologies and sharpening my skills. My passion lies in problem-solving and uncovering insights from data to drive informed decisions. I specialize in data analysis and visualization using tools like Power BI, Pandas, and Matplotlib, combined with statistical techniques to deliver impactful solutions. While I enjoy working with various technologies, Python is at the core of my expertise, and I strive to leverage it to its full potential. I am eager to collaborate on projects that challenge my abilities and help me grow professionally. If you are looking for a committed and skillful individual to contribute to your team, I’m available for opportunities that align with my interests and expertise.",
   email: "0peteradel@proton.me",
   phone: "+201140906414",
   address: "Egypt , 6-Octoper",
@@ -13,11 +13,9 @@ export const personalData = {
   hackerRank: "https://www.hackerrank.com/profile/1peteradel",
   codeforce: "https://codeforces.com/profile/Peter_Adel",
   // 
-  facebook: 'https://www.facebook.com/',
-  twitter: 'https://twitter.com/',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/',
-  leetcode: "https://leetcode.com//",
-  devUsername: "said7388",
-  
+  //facebook: 'https://www.facebook.com/',
+  //twitter: 'https://twitter.com/',
+  //stackOverflow: 'https://stackoverflow.com/users/',
+  //leetcode: "https://leetcode.com//",
   resume: "https://drive.google.com/file/d/1Xl8uCfag6XBESeeZAO0MFBFLOZhxZePC/view?usp=sharing"
 }
