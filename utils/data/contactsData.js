@@ -9,7 +9,7 @@ export const contactsData = {
   hackerRank: "https://www.hackerrank.com/profile/1peteradel",
   codeforce: "https://codeforces.com/profile/Peter_Adel",
   // facebook: 'https://www.facebook.com//',
-  // twitter: 'https://twitter.com/said7388',
-  // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  devUsername: "said7388",
+  // twitter: 'https://twitter.com',
+  // stackOverflow: 'https://stackoverflow.com/users/',
+  //devUsername: "",
 };
