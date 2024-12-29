@@ -27,7 +27,16 @@ export const certificateData = [
         link: "https://www.sololearn.com/en/certificates/CC-Q2PHFVPE",
     },
     {
-        id: 2,
+        id: 4,
+        name: "SQL (Problem-Solving)",
+        from: 'HackerRank',
+        description: "I earned a certificate from HackerRank in Problem Solving using SQL, demonstrating my ability to analyze problems and apply effective programming solutions.",
+        date: 'Dec 2024',
+        cover_image: "/certificate/SQL-Problem.png",
+        link: "https://www.hackerrank.com/certificates/06e66f6fab2e",
+    },
+    {
+        id: 5,
         name: "Protecting Systems from Penetration",
         from: 'Edraak',
         description: "Learned techniques to protect systems and networks from cyber threats and vulnerabilities.",
@@ -36,7 +45,7 @@ export const certificateData = [
         link: "https://programs.edraak.org/learn/verify-certificate/f0803fa3bc0340e3819dc172d03ce2fa/?lang=en",
     },
     {
-        id: 5,
+        id: 6,
         name: "Offensive Penetration Testing",
         from: 'Cybrary',
         description: "Gained extensive experience in penetration testing methodologies and ethical hacking techniques with over 22 hours of hands-on training.",
@@ -45,7 +54,7 @@ export const certificateData = [
         link: "https://app.cybrary.it/courses/api/certificate/CC-d9cb0053-79f5-4699-8269-f84a8cd3daeb/view",
     },
     {
-        id: 2,
+        id: 7,
         name: "HTML",
         from: 'SoloLearn',
         description: "I learned HTML, including structure, elements, and best practices for web development with lots of application.",
@@ -54,7 +63,7 @@ export const certificateData = [
         link: "https://www.sololearn.com/en/certificates/CC-CWYLBC15",
     },
     {
-        id: 2,
+        id: 8,
         name: "Css",
         from: 'SoloLearn',
         description: "Gain skills in CSS to design web pages and create responsive designs with lots of application.",
@@ -63,7 +72,7 @@ export const certificateData = [
         link: "https://www.sololearn.com/en/certificates/CC-6IEXTH7I",
     },
     {
-        id: 2,
+        id: 9,
         name: "Cybersecurity Bootcamp",
         from: 'cyber-talents',
         description: "Gained extensive experience in penetration testing methodologies and ethical hacking techniques with over 22 hours of hands-on training.",
