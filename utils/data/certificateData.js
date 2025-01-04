@@ -37,6 +37,15 @@ export const certificateData = [
     },
     {
         id: 5,
+        name: "building with Power BI",
+        from: 'Microsoft',
+        description: "I earned a certificate from Microsoft for starting to build with Power BI, showcasing my foundational skills in data visualization and the ability to create insightful, interactive reports and dashboards.",
+        date: 'Jan 2025',
+        cover_image: "/certificate/PowerBI.png",
+        link: "https://learn.microsoft.com/ar-sa/users/peteradel/achievements/wztlu9kn",
+    },
+    {
+        id: 5,
         name: "Protecting Systems from Penetration",
         from: 'Edraak',
         description: "Learned techniques to protect systems and networks from cyber threats and vulnerabilities.",
