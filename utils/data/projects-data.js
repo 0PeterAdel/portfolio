@@ -5,7 +5,7 @@ import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
     {
-        id: 2,
+        id: 1,
         name: 'Human Resources Dataset Analysisp',
         description: `Currently collaborating with a team to analyze a comprehensive Human Resources dataset as part of a competition organized by DEPI and eYouth in partnership with the Ministry of Communications. The project is also being presented alongside other competitive projects in the same field.
         My role focuses on:
@@ -21,7 +21,7 @@ export const projectsData = [
         image: travel,
     },
     {
-        id: 3,
+        id: 2,
         name: 'Okalo',
         description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
         tools: ['python', 'JS', 'HTML', 'CSS', 'BootStrap', 'eel', 'pyttsx3', 'speech_recognition', 'OpenAI API', 'Local Ai-Models', '...'],
@@ -31,17 +31,20 @@ export const projectsData = [
         demo: '',
         image: realEstate,
     },
-
     {
+        id: 3,
         name: 'CyberBrain_Model',
-        tools: ['Python', 'PyTorch', 'Hugging Face Transformers', 'Unsloth', 'Google Colab', 'LoRA', 'Data Processing', 'Git'],
-        myRole: 'Machine Learning Engineer & Project Owner',
-        link: 'https://github.com/0PeterAdel/CyberBrain_Model',
         description: `CyberBrain_Model is an advanced AI project focused on fine-tuning the model \`unsloth/DeepSeek-R1-Distill-Qwen-14B\` for cyber security tasks. 
         It emphasizes robust data processing and machine learning techniques using Python. 
         The project leverages PyTorch and Hugging Face Transformers for training and fine-tuning large language models, while Unsloth is used to optimize performance on devices with limited hardware resources.
-        Training data, sourced from various cyber security materials, is processed into instruction-response pairs, enabling the model to address cyber security challenges efficiently and ethically.`
-    };
+        Training data, sourced from various cyber security materials, is processed into instruction-response pairs, enabling the model to address cyber security challenges efficiently and ethically.`,
+        tools: ['Python', 'PyTorch', 'Hugging Face Transformers', 'Unsloth', 'Google Colab', 'LoRA', 'Data Processing', 'Git', '...'],
+        code: '',
+        link: 'https://github.com/0PeterAdel/CyberBrain_Model',
+        role: 'Machine Learning Engineer & Project Owner',
+        demo: '',
+        image: realEstate,
+    },
 ];
 
 
