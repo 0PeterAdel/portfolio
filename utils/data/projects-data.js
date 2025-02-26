@@ -15,6 +15,7 @@ export const projectsData = [
         This ongoing project aims to deliver actionable insights for enhancing organizational decision-making processes, while competing at a high level within the industry.`,
         tools: ['SQL', 'Python', 'Power BI', 'Pandas', 'Matplotlib', 'Excel', 'Scikit-learn', 'Tableau'],
         role: 'Data Analyst (SQL, Python, Power BI)',
+        link: 'https://github.com/0PeterAdel/Data-Dyanamos',
         code: '',
         demo: '',
         image: travel,
@@ -25,10 +26,22 @@ export const projectsData = [
         description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
         tools: ['python', 'JS', 'HTML', 'CSS', 'BootStrap', 'eel', 'pyttsx3', 'speech_recognition', 'OpenAI API', 'Local Ai-Models', '...'],
         code: '',
+        link: 'https://github.com/0PeterAdel/Okalo',
         role: 'Full-Stack Developer & Project Owner',
         demo: '',
         image: realEstate,
     },
+
+    {
+        name: 'CyberBrain_Model',
+        tools: ['Python', 'PyTorch', 'Hugging Face Transformers', 'Unsloth', 'Google Colab', 'LoRA', 'Data Processing', 'Git'],
+        myRole: 'Machine Learning Engineer & Project Owner',
+        link: 'https://github.com/0PeterAdel/CyberBrain_Model',
+        description: `CyberBrain_Model is an advanced AI project focused on fine-tuning the model \`unsloth/DeepSeek-R1-Distill-Qwen-14B\` for cyber security tasks. 
+        It emphasizes robust data processing and machine learning techniques using Python. 
+        The project leverages PyTorch and Hugging Face Transformers for training and fine-tuning large language models, while Unsloth is used to optimize performance on devices with limited hardware resources.
+        Training data, sourced from various cyber security materials, is processed into instruction-response pairs, enabling the model to address cyber security challenges efficiently and ethically.`
+    };
 ];
 
 
