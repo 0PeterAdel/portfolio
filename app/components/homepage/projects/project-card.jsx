@@ -3,7 +3,6 @@
 import * as React from 'react';
 
 function ProjectCard({ project }) {
-
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
@@ -34,9 +33,8 @@ function ProjectCard({ project }) {
             <span className="text-amber-300">{project.name}</span>
             <span className="text-gray-400">{`',`}</span>
           </div>
-
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className=" text-white">tools:</span>
+            <span className="text-white">tools:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
               project.tools.map((tag, i) => (
@@ -61,7 +59,16 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
-          <div><span className="text-gray-400">{`};`}</span></div>
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Github:</span>
+            <a href={project.github} target="_blank" className="text-orange-400 underline ml-1">
+            Go To Project
+            </a>
+            <span className="text-gray-400">,</span>
+          </div>
+          <div>
+            <span className="text-gray-400">{`};`}</span>
+          </div>
         </code>
       </div>
     </div>
@@ -69,3 +76,4 @@ function ProjectCard({ project }) {
 };
 
 export default ProjectCard;
+
