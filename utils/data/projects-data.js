@@ -29,7 +29,7 @@ export const projectsData = [
         link: 'https://github.com/0PeterAdel/Okalo',
         role: 'Full-Stack Developer & Project Owner',
         demo: '',
-        image: realEstate,
+        image: travel,
     },
     {
         id: 3,
@@ -43,7 +43,7 @@ export const projectsData = [
         link: 'https://github.com/0PeterAdel/CyberBrain_Model',
         role: 'Machine Learning Engineer & Project Owner',
         demo: '',
-        image: realEstate,
+        image: crefin,
     },
 ];
 
@@ -59,5 +59,5 @@ export const projectsData = [
 //     role: '',
 //     code: '',
 //     demo: '',
-//     image: crefin,
+//     image: crefin,realEstate
 // },
