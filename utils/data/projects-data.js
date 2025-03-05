@@ -41,6 +41,15 @@ export const projectsData = [
         github: 'https://github.com/0PeterAdel/CyberBrain_Model',
         role: 'Machine Learning Engineer & Project Owner',
     },
+    {
+        id: 4,
+        name: 'Brazilian E-Commerce',
+        description: 'This project tackles the Brazilian E-Commerce Data Challenge by analyzing the Olist dataset to extract insights on customer behavior, sales, and delivery performance. Using Python and libraries like pandas and numpy, the data was cleaned and prepared for analysis. Key metrics such as revenue reconciliation, order status distribution, and delivery delays were calculated and visualized through an interactive Power BI dashboard. The project demonstrates skills in data cleaning, analysis, and visualization, providing actionable insights for e-commerce optimization.',
+        tools: ['Python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'Jupyter Notebook', 'Power BI', 'Excel', 'Git', '...'],
+        code: '',
+        github: 'https://github.com/0PeterAdel/Brazilian-ECommerce',
+        role: 'Data Analyst & Project Owner',
+    },
 ];
 
 
