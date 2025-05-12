@@ -21,16 +21,6 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Okalo',
-        description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
-        tools: ['python', 'JS', 'HTML', 'CSS', 'BootStrap', 'eel', 'pyttsx3', 'speech_recognition', 'OpenAI API', 'Local Ai-Models', '...'],
-        code: 'https://github.com/0PeterAdel/Okalo',
-        github: 'https://github.com/0PeterAdel/Okalo',
-        role: 'Full-Stack Developer & Project Owner',
-        demo: 'https://github.com/0PeterAdel/Okalo',
-    },
-    {
-        id: 3,
         name: 'CyberBrain_Model',
         description: `CyberBrain_Model is an advanced AI project focused on fine-tuning the model \`unsloth/DeepSeek-R1-Distill-Qwen-14B\` for cyber security tasks. 
         It emphasizes robust data processing and machine learning techniques using Python. 
@@ -42,7 +32,31 @@ export const projectsData = [
         role: 'Machine Learning Engineer & Project Owner',
     },
     {
+        id: 3,
+        name: 'Computational Genomics',
+        description: `This project focuses on classifying cancer patients using genomic mutation and DNA methylation data. 
+        The primary goals include:
+            - Task 1: Classifying patients based solely on mutation data.
+            - Task 2: Enhancing classification by integrating mutation and methylation data.
+        Leveraging GPU-accelerated computing in Google Colab, the project employs advanced feature engineering, dimensionality reduction, and machine learning models (RandomForest and XGBoost) to achieve high accuracy in cancer subtype prediction. 
+        Visualizations and performance metrics (F1-Score up to 0.882) demonstrate the effectiveness of the integrated approach, offering valuable insights for personalized cancer treatment.`,
+        tools: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'XGBoost', 'CuDF', 'Torch', 'Google Colab', 'GPU Acceleration'],
+        role: 'Data Scientist & Machine Learning Engineer',
+        github: 'https://github.com/0PeterAdel/Computational-Genomics',
+        demo: 'https://colab.research.google.com/drive/1ipRDOFxU05ZRPBaigBNUYV7494gW3D4l?usp=sharing',
+    },
+    {
         id: 4,
+        name: 'Okalo',
+        description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
+        tools: ['python', 'JS', 'HTML', 'CSS', 'BootStrap', 'eel', 'pyttsx3', 'speech_recognition', 'OpenAI API', 'Local Ai-Models', '...'],
+        code: 'https://github.com/0PeterAdel/Okalo',
+        github: 'https://github.com/0PeterAdel/Okalo',
+        role: 'Full-Stack Developer & Project Owner',
+        demo: 'https://github.com/0PeterAdel/Okalo',
+    },
+    {
+        id: 5,
         name: 'Brazilian E-Commerce',
         description: 'This project tackles the Brazilian E-Commerce Data Challenge by analyzing the Olist dataset to extract insights on customer behavior, sales, and delivery performance. Using Python and libraries like pandas and numpy, the data was cleaned and prepared for analysis. Key metrics such as revenue reconciliation, order status distribution, and delivery delays were calculated and visualized through an interactive Power BI dashboard. The project demonstrates skills in data cleaning, analysis, and visualization, providing actionable insights for e-commerce optimization.',
         tools: ['Python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'Jupyter Notebook', 'Power BI', 'Excel', 'Git', '...'],
