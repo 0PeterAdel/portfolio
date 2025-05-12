@@ -17,17 +17,21 @@ const Projects = () => {
       </div>
       <div className="pt-24">
         <div className="flex flex-col gap-6">
-          {projectsData.map((project) => (
-            <div
-              id={`sticky-card-${project.id}`}
-              key={project.id}
-              className="sticky-card w-full mx-auto max-w-2xl sticky"
-            >
-              <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
-                <ProjectCard project={project} />
+          {projectsData.map((project, index) => {
+            const zIndex = projectsData.length - index;
+            return (
+              <div
+                id={`sticky-card-${project.id}`}
+                key={project.id}
+                className="sticky-card w-full mx-auto max-w-2xl sticky"
+                style={{ zIndex }}
+              >
+                <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
+                  <ProjectCard project={project} />
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
