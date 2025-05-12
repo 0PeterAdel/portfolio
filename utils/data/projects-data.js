@@ -46,15 +46,6 @@ export const projectsData = [
         demo: 'https://colab.research.google.com/drive/1ipRDOFxU05ZRPBaigBNUYV7494gW3D4l?usp=sharing',
     },
     {
-        id: 4,
-        name: 'Okalo',
-        description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
-        tools: ['python', 'JS', 'HTML', 'CSS', 'BootStrap', 'eel', 'pyttsx3', 'speech_recognition', 'OpenAI API', 'Local Ai-Models', '...'],
-        code: 'https://github.com/0PeterAdel/Okalo',
-        github: 'https://github.com/0PeterAdel/Okalo',
-        role: 'Full-Stack Developer & Project Owner',
-        demo: 'https://github.com/0PeterAdel/Okalo',
-    },
     {
         id: 5,
         name: 'Brazilian E-Commerce',
@@ -63,6 +54,15 @@ export const projectsData = [
         code: 'https://github.com/0PeterAdel/Brazilian-ECommerce',
         github: 'https://github.com/0PeterAdel/Brazilian-ECommerce',
         role: 'Data Analyst & Project Owner',
+    },
+        id: 4,
+        name: 'Okalo',
+        description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
+        tools: ['python', 'JS', 'HTML', 'CSS', 'BootStrap', 'eel', 'pyttsx3', 'speech_recognition', 'OpenAI API', 'Local Ai-Models', '...'],
+        code: 'https://github.com/0PeterAdel/Okalo',
+        github: 'https://github.com/0PeterAdel/Okalo',
+        role: 'Full-Stack Developer & Project Owner',
+        demo: 'https://github.com/0PeterAdel/Okalo',
     },
 ];
 
