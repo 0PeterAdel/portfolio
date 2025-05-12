@@ -46,7 +46,6 @@ export const projectsData = [
         demo: 'https://colab.research.google.com/drive/1ipRDOFxU05ZRPBaigBNUYV7494gW3D4l?usp=sharing',
     },
     {
-    {
         id: 5,
         name: 'Brazilian E-Commerce',
         description: 'This project tackles the Brazilian E-Commerce Data Challenge by analyzing the Olist dataset to extract insights on customer behavior, sales, and delivery performance. Using Python and libraries like pandas and numpy, the data was cleaned and prepared for analysis. Key metrics such as revenue reconciliation, order status distribution, and delivery delays were calculated and visualized through an interactive Power BI dashboard. The project demonstrates skills in data cleaning, analysis, and visualization, providing actionable insights for e-commerce optimization.',
@@ -55,6 +54,7 @@ export const projectsData = [
         github: 'https://github.com/0PeterAdel/Brazilian-ECommerce',
         role: 'Data Analyst & Project Owner',
     },
+    {
         id: 4,
         name: 'Okalo',
         description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
