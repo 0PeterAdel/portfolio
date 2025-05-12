@@ -64,6 +64,17 @@ export const projectsData = [
         github: 'https://github.com/0PeterAdel/Brazilian-ECommerce',
         role: 'Data Analyst & Project Owner',
     },
+    {
+        id: 6,
+        name: 'Data-Verse',
+        description: `Data-Verse is an end-to-end AI data analysis agent that automates data ingestion, cleaning, pattern extraction, and predictive modeling, culminating in interactive visualizations—providing a comprehensive alternative to traditional data analysts. 
+        The project integrates advanced AI techniques with a user-friendly interface, leveraging Fast API for backend processing and React with Tailwind CSS for a responsive frontend. Large Language Models (LLM) enhance the agent's ability to derive insights, making it a powerful tool for data-driven decision-making.`,
+        tools: ['TypeScript', 'Python', 'JavaScript', 'CSS', 'Fast API', 'LLM', 'Vite', 'React', 'shadcn-ui', 'Tailwind CSS'],
+        role: 'Full-Stack Developer & AI Engineer',
+        github: '',
+        code: '',
+        demo: 'https://data-verse.netlify.app',
+    },
 ];
 
 
