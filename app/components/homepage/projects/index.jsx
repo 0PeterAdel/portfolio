@@ -18,7 +18,8 @@ const Projects = () => {
       <div className="pt-24">
         <div className="flex flex-col gap-6">
           {projectsData.map((project, index) => {
-            const zIndex = projectsData.length - index;
+            // نستخدم index+1 عشان آخر بطاقة (index الأكبر) تكون الأعلى z-index
+            const zIndex = index + 1;
             return (
               <div
                 id={`sticky-card-${project.id}`}
