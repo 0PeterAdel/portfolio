@@ -4,10 +4,8 @@ import { projectsData } from '@/utils/data/projects-data';
 import ProjectCard from './project-card';
 
 const Projects = () => {
-  // المسافة الثابتة من أعلى الشاشة (px) قبل الالتصاق
   const BASE_TOP = 96;
 
-  // المسافة الرأسية الفاصلة بين كل Sticky-card واللي تحته (px)
   const SPACING = 80;
 
   return (
@@ -24,9 +22,7 @@ const Projects = () => {
       <div className="pt-24">
         <div className="flex flex-col gap-6">
           {projectsData.map((project, index) => {
-            // نحسب top ديناميكي: يبدأ من BASE_TOP ويزيد بمقدار SPACING لكل بطاقة
             const topPx = BASE_TOP + index * SPACING;
-            // z-index يخلي الأحدث فوق الأقدم
             const zIndex = 100 + index;
             return (
               <div
