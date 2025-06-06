@@ -6,7 +6,7 @@ export const certificateData = [
         description: "Certified by DataCamp as an Associate Data Analyst, demonstrating proficiency in data wrangling, data visualization, and foundational analysis techniques using Python and relevant tools.",
         date: 'June 2025',
         cover_image: "/certificate/datacamp-analyst.png",
-        link: "https://www.datacamp.com/certification/DAA0011942323369",
+        link: "https://www.datacamp.com/certificate/DAA0011942323369",
     },
     {
         id: 2,
