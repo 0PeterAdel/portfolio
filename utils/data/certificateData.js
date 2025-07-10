@@ -6,7 +6,7 @@ export const certificateData =
         description: "Completed an intensive 7-month program sponsored by Egypt's MCIT. Gained a robust skill set in the entire data analysis lifecycle, including SQL, Python, Power BI, Tableau, and Machine Learning, with a focus on practical, project-based application.",
         date: 'May 2025',
         cover_image: "/certificate/DEPI.jpg",
-        link: "", // أضف رابط التحقق الرسمي هنا إذا كان متوفراً
+        link: "",
     },
     {
         id: 2,
