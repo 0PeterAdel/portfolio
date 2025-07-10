@@ -67,15 +67,14 @@ export const projectsData = [
     {
         id: 6,
         name: 'Renewable Energy Production Forecasting',
-        description: "As part of a data science competition, I developed an end-to-end machine learning model to forecast renewable energy production. Using Python, Pandas, and Scikit-learn, my process included comprehensive data exploration (EDA), preprocessing, and training multiple regression models. The project concluded with generating predictions on unseen data, delivering a predictive tool designed to support smarter investments and accelerate the transition to clean energy.",
-        tools: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Seaborn'],
+        description: "Built a machine learning model in a data science competition to predict renewable energy production. Using Python and Scikit-learn, the model was trained on economic and environmental data to create a tool supporting smarter clean energy investments.",        tools: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Seaborn'],
         role: 'Data Scientist / Machine Learning',
         github: 'https://www.datacamp.com/datalab/w/f20ece7a-dbe7-4c12-8cc0-b45c4adc5780',
         code: 'https://www.datacamp.com/datalab/w/f20ece7a-dbe7-4c12-8cc0-b45c4adc5780',
         demo: '', 
     },
     {
-        id: 6,
+        id: 7,
         name: 'Data-Verse',
         description: `Data-Verse is an end-to-end AI data analysis agent that automates data ingestion, cleaning, pattern extraction, and predictive modeling, culminating in interactive visualizations—providing a comprehensive alternative to traditional data analysts. 
         The project integrates advanced AI techniques with a user-friendly interface, leveraging Fast API for backend processing and React with Tailwind CSS for a responsive frontend. Large Language Models (LLM) enhance the agent's ability to derive insights, making it a powerful tool for data-driven decision-making.`,
