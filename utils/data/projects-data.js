@@ -46,6 +46,21 @@ export const projectsData = [
         demo: 'https://colab.research.google.com/drive/1ipRDOFxU05ZRPBaigBNUYV7494gW3D4l?usp=sharing',
     },
     {
+        id: 3, 
+        name: 'Renewable Energy Production Forecasting',
+        description: `Developed a machine learning model to forecast renewable energy production (GWh) as part of a competitive challenge simulating the role of a Data Scientist at NextEra Energy. The model leverages economic and environmental indicators to predict future green energy output.
+        My role in this project involved:
+            - Data Exploration & Preprocessing: Performed Exploratory Data Analysis (EDA) using Python with Pandas, Matplotlib, and Seaborn to uncover trends and relationships in the data. Handled missing values and prepared the dataset for modeling.
+            - Model Development & Training: Trained and evaluated several regression models with Scikit-learn to accurately predict energy production based on features like GDP, population, and carbon emissions.
+            - Prediction & Submission: Utilized the best-performing model to generate predictions on the unseen test data and formatted the results for submission according to the competition's specifications.
+        The ultimate goal of this project was to create a predictive tool that could help shape smarter investments and accelerate the global transition to clean energy.`,
+        tools: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Seaborn'],
+        role: 'Data Scientist / Machine Learning',
+        github: '',
+        code: 'https://www.datacamp.com/datalab/w/f20ece7a-dbe7-4c12-8cc0-b45c4adc5780',
+        demo: '', 
+    },
+    {
         id: 4,
         name: 'Okalo',
         description: 'I am currently developing Okalo, an AI-powered virtual assistant that integrates various functionalities to enhance user interaction. I am building the backend using Python with Eel for seamless communication between the frontend and backend. The project leverages AI technologies for voice recognition and text-to-speech capabilities, utilizing libraries like pyttsx3 and Speech Recognition. Additionally, I am integrating OpenAI API for advanced natural language processing. The assistant is designed to assist users efficiently and intelligently, offering a user-friendly experience with a customizable interface.',
