@@ -1,4 +1,4 @@
-export const certificateData = 
+export const certificateData = [
     {
         id: 1,
         name: "Google Data Analyst Specialist",
