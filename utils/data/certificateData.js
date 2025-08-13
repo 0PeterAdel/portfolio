@@ -115,7 +115,7 @@ export const certificateData = [
         date: 'Aug 2025',
         cover_image: "/certificate/GitHubCodeSearch.png",
         link: "https://www.linkedin.com/learning/certificates/fa705658b019187976bfb273d4d5383ff98c340d75b6335431c13395bfd29bad?trk=share_certificate",
-    }
+    },
     {
         id: 14,
         name: "Practical GitHub Project Management and Collaboration",
@@ -124,7 +124,7 @@ export const certificateData = [
         date: 'Aug 2025',
         cover_image: "/certificate/GitHubProjectManagement.png",
         link: "https://www.linkedin.com/learning/certificates/146886c2b861826efc63757985dd2508694f91dfe6c09e1d0ad224a31de65c08?trk=share_certificate",
-    }
+    },
     {
         id: 15,
         name: "Practical GitHub Copilot",
@@ -133,7 +133,7 @@ export const certificateData = [
         date: 'Aug 2025',
         cover_image: "/certificate/GitHubCopilot.png",
         link: "https://www.linkedin.com/learning/certificates/a3cd36403492cc8be9e3da8aa50270a8b98d031abaa7726875232a175816a5c3?trk=share_certificate",
-    }
+    },
     {
         id: 16,
         name: "Practical GitHub Actions",
