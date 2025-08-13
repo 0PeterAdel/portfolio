@@ -28,7 +28,7 @@ export const certificateData = [
     },
     {
         id: 4,
-        name: "Using Python for Automation"",
+        name: "Using Python for Automation",
         from: 'LinkedIn Learning',
         description: "Course completed by Peter Adel on Aug 12, 2025 at 03:32PM UTC, taking 1 hour 15 minutes, covering Process Automation and Python (Programming Language) skills.",
         date: 'Aug 12, 2025'',
