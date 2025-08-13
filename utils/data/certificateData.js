@@ -31,7 +31,7 @@ export const certificateData = [
         name: "Using Python for Automation",
         from: 'LinkedIn Learning',
         description: "Course completed by Peter Adel on Aug 2025 at 03:32PM UTC, taking 1 hour 15 minutes, covering Process Automation and Python (Programming Language) skills.",
-        date: 'Aug 2025'',
+        date: 'Aug 2025',
         cover_image: "/certificate/CertificateOfCompletion_Using-Python-for-Automation.png",
         link: "https://www.linkedin.com/learning/certificates/4d1fb88b0716e42860aed20263615253cc4bbc02f6c5d688d4fcb0440199a486?trk=share_certificate",
     },
