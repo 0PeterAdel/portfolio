@@ -18,7 +18,7 @@ export const certificateData = [
         link: "https://www.linkedin.com/learning/certificates/caa94efa1fce24b26f7d0d894457179df15676a752ae158a529cb5a6fa41b420?trk=share_certificate",
     },
     {
-        id: 2,
+        id: 3,
         name: "Associate Data Analyst",
         from: 'DataCamp',
         description: "Certified by DataCamp as an Associate Data Analyst, demonstrating proficiency in data wrangling, data visualization, and foundational analysis techniques using Python and relevant tools.",
@@ -27,7 +27,16 @@ export const certificateData = [
         link: "https://www.datacamp.com/certificate/DAA0011942323369",
     },
     {
-        id: 3,
+        id: 4,
+        name: "Using Python for Automation"",
+        from: 'LinkedIn Learning',
+        description: "Course completed by Peter Adel on Aug 12, 2025 at 03:32PM UTC, taking 1 hour 15 minutes, covering Process Automation and Python (Programming Language) skills.",
+        date: 'Aug 12, 2025'',
+        cover_image: "/certificate/CertificateOfCompletion_Using-Python-for-Automation.png",
+        link: "https://www.linkedin.com/learning/certificates/4d1fb88b0716e42860aed20263615253cc4bbc02f6c5d688d4fcb0440199a486?trk=share_certificate",
+    },
+    {
+        id: 5,
         name: "Python Core",
         from: 'SoloLearn',
         description: "A strong foundation in Python programming is developed, along with practice in problem solving.",
@@ -36,7 +45,7 @@ export const certificateData = [
         link: "https://www.sololearn.com/en/certificates/CT-YOD2KZTB",
     },
     {
-        id: 4,
+        id: 6,
         name: "Python (Problem-Solving)",
         from: 'HackerRank',
         description: "I earned a certificate from HackerRank in Problem Solving using Python, demonstrating my ability to analyze problems and apply effective programming solutions.",
@@ -45,7 +54,7 @@ export const certificateData = [
         link: "https://www.hackerrank.com/certificates/iframe/4fb1fa127f92",
     },
     {
-        id: 5,
+        id: 7,
         name: "Java",
         from: 'SoloLearn',
         description: "Java programming concepts, including OOP and practice problem solving using Java.",
@@ -54,7 +63,7 @@ export const certificateData = [
         link: "https://www.sololearn.com/en/certificates/CC-Q2PHFVPE",
     },
     {
-        id: 6,
+        id: 8,
         name: "SQL (Problem-Solving)",
         from: 'HackerRank',
         description: "I earned a certificate from HackerRank in Problem Solving using SQL, demonstrating my ability to analyze problems and apply effective programming solutions.",
@@ -63,7 +72,7 @@ export const certificateData = [
         link: "https://www.hackerrank.com/certificates/06e66f6fab2e",
     },
     {
-        id: 7,
+        id: 9,
         name: "building with Power BI",
         from: 'Microsoft',
         description: "I earned a certificate from Microsoft for starting to build with Power BI, showcasing my foundational skills in data visualization and the ability to create insightful, interactive reports and dashboards.",
@@ -72,7 +81,7 @@ export const certificateData = [
         link: "https://learn.microsoft.com/ar-sa/users/peteradel/achievements/wztlu9kn",
     },
     {
-        id: 8,
+        id: 10,
         name: "Protecting Systems from Penetration",
         from: 'Edraak',
         description: "Learned techniques to protect systems and networks from cyber threats and vulnerabilities.",
@@ -81,7 +90,7 @@ export const certificateData = [
         link: "https://programs.edraak.org/learn/verify-certificate/f0803fa3bc0340e3819dc172d03ce2fa/?lang=en",
     },
     {
-        id: 9,
+        id: 11,
         name: "Offensive Penetration Testing",
         from: 'Cybrary',
         description: "Gained extensive experience in penetration testing methodologies and ethical hacking techniques with over 22 hours of hands-on training.",
@@ -90,7 +99,7 @@ export const certificateData = [
         link: "https://app.cybrary.it/courses/api/certificate/CC-d9cb0053-79f5-4699-8269-f84a8cd3daeb/view",
     },
     {
-        id: 10,
+        id: 12,
         name: "HTML",
         from: 'SoloLearn',
         description: "I learned HTML, including structure, elements, and best practices for web development with lots of application.",
@@ -99,7 +108,7 @@ export const certificateData = [
         link: "https://www.sololearn.com/en/certificates/CC-CWYLBC15",
     },
     {
-        id: 11,
+        id: 13,
         name: "Css",
         from: 'SoloLearn',
         description: "Gain skills in CSS to design web pages and create responsive designs with lots of application.",
@@ -108,7 +117,7 @@ export const certificateData = [
         link: "https://www.sololearn.com/en/certificates/CC-6IEXTH7I",
     },
     {
-        id: 12,
+        id: 14,
         name: "Cybersecurity Bootcamp",
         from: 'cyber-talents',
         description: "Gained extensive experience in penetration testing methodologies and ethical hacking techniques with over 22 hours of hands-on training.",
