@@ -10,6 +10,15 @@ export const certificateData = [
     },
     {
         id: 2,
+        name: "Career Essentials in GitHub",
+        from: 'LinkedIn Learning & GitHub',
+        description: "Learning Path completed by Peter Adel on Aug 13, 2025 at 05:32PM UTC, taking 4 hours 18 minutes, focusing on GitHub skills.",
+        date: 'Aug 13, 2025',
+        cover_image: "/certificate/CertificateOfCompletion_Career-Essentials-1.png",
+        link: "https://www.linkedin.com/learning/certificates/caa94efa1fce24b26f7d0d894457179df15676a752ae158a529cb5a6fa41b420?trk=share_certificate",
+    },
+    {
+        id: 2,
         name: "Associate Data Analyst",
         from: 'DataCamp',
         description: "Certified by DataCamp as an Associate Data Analyst, demonstrating proficiency in data wrangling, data visualization, and foundational analysis techniques using Python and relevant tools.",
