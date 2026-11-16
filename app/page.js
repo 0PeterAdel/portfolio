@@ -5,11 +5,12 @@ import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
 import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
+import OpenSourceContributions from "./components/homepage/open-source";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 async function getData() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
+  const res = await fetch('https://dev.to/api/articles?username=' + personalData.devUsername)
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
@@ -32,6 +33,7 @@ export default async function Home() {
       <Experience />
       <Skills />
       <Projects />
+      <OpenSourceContributions />
       <Education />
       <Blog blogs={blogs} />
       <ContactSection />
